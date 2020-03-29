@@ -1,21 +1,19 @@
 fileFormatVersion: 2
-guid: 9f476b5f83f7feb468b74feff07c0e1f
+guid: c0b6d732e65cd8749874e0596a0e6a88
 TextureImporter:
   fileIDToRecycleName:
-    21300000: objects_0
-    21300002: objects_1
-    21300004: objects_2
-    21300006: objects_3
-    21300008: objects_4
-    21300010: objects_5
-    21300012: objects_6
-    21300014: objects_7
-    21300016: objects_8
-    21300018: objects_9
-    21300020: objects_10
-    21300022: objects_11
-    21300024: objects_12
-    21300026: objects_13
+    21300000: SlimeSmash_0
+    21300002: SlimeSmash_1
+    21300004: SlimeSmash_2
+    21300006: SlimeSmash_3
+    21300008: SlimeSmash_4
+    21300010: SlimeSmash_5
+    21300012: SlimeSmash_6
+    21300014: SlimeSmash_7
+    21300016: SlimeSmash_8
+    21300018: SlimeSmash_9
+    21300020: SlimeSmash_10
+    21300022: SlimeSmash_11
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -59,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -77,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -88,7 +86,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -99,7 +97,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,193 +107,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: objects_0
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 4
-        width: 63
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 860355596cab77a4cb7113f6545b7c3a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objects_1
+      name: SlimeSmash_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
-        width: 16
-        height: 16
+        y: 396
+        width: 132
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a4d263aea1caca499cc8aec8bb07c02
+      spriteID: d7a5ec061dc04f34ab0a55d4c3deecf8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_2
+      name: SlimeSmash_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 240
-        width: 16
-        height: 16
+        x: 132
+        y: 396
+        width: 132
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f5806c034d49c4886147c3ef0bddc5
+      spriteID: 3156f1b77a72c9642b7cd536dfe160e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_3
+      name: SlimeSmash_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 240
-        width: 16
-        height: 16
+        x: 264
+        y: 396
+        width: 132
+        height: 132
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7201554d6620856448975362b1cd8724
+      spriteID: a56cf7a081ef492459b6b3ae659e3327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 195fc9e004c42ea4883c3b4d14be4ffd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objects_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 305
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99fb587896cd4894dbb2ceca6fe96c14
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objects_6
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 304
-        width: 22
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51ab599470e03bf4c8743ae01700c871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objects_7
+      name: SlimeSmash_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 304
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 358fa9adaf75e3b47ba3791fd4a5ad0e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objects_8
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 52
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 12, y: 12, z: 12, w: 12}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a334594251dbe8e49b989b958db2eec8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: objects_9
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
+        y: 264
+        width: 132
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,19 +181,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97eb8c09fe819654d80117736ea60e52
+      spriteID: 38096cbe49c75324ba73ebfee4dd0439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_10
+      name: SlimeSmash_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 32
-        height: 32
+        x: 132
+        y: 264
+        width: 132
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,19 +201,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ab79df0b8bf1bf409ae0d83f37e5ad6
+      spriteID: 55e1f860cb3fcb2459d4383ed33235c0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_11
+      name: SlimeSmash_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
+        x: 264
+        y: 264
+        width: 132
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,19 +221,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fba9a5a44466e84f9b33362a3eab03a
+      spriteID: 736999618901732488d1056a64cde538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_12
+      name: SlimeSmash_6
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
+        x: 0
+        y: 132
+        width: 132
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,19 +241,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73ccf556123b7d94faced2ea4b5a0940
+      spriteID: b2125b87ad1eeef43a14b5ebcc9f4777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_13
+      name: SlimeSmash_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 32
-        height: 32
+        x: 132
+        y: 132
+        width: 132
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,7 +261,87 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ed898d1ffe5bd429eadd665f4ca74f
+      spriteID: 5230f79677fcc5b408e6a9f613ed9fe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeSmash_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0e2eb9883fc9843a0c0b9564d4c92a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeSmash_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5391b2b9ea62754b99e502b31f54a02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeSmash_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddd93c69b8b5eb458e922a09f5bca2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeSmash_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfc929ecb92ad4429eea2ab31b53765
       vertices: []
       indices: 
       edges: []
@@ -391,7 +349,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a64bc92a9c5d6e04f82658ed99e25513
+    spriteID: ac818d3897b05e041a213a168566b979
     vertices: []
     indices: 
     edges: []

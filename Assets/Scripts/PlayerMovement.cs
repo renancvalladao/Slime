@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 change;
     private Animator animator;
     private bool smashing;
+    public FloatValue currentHealth;
+    public Signal playerHealthSignal;
 
 
     //Use this for initialization
@@ -71,12 +73,19 @@ public class PlayerMovement : MonoBehaviour
         if (coll.gameObject)
         {
             change = Vector2.zero;
+
+            currentHealth.RuntimeValue -= 1; //só pra testar --> colisão dando dano
+            playerHealthSignal.Raise();
+            if (currentHealth.RuntimeValue <= 0)
+            {
+                this.gameObject.SetActive(false);
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Breakable") && smashing)
+        if (other.gameObject.CompareTag("Breakable") && smashing)
         {
             other.GetComponent<Rock>().Smash();
         }
