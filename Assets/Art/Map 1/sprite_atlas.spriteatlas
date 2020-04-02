@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 8022167aba0761f4ea76f3ee25d11c77, type: 3}
-    totalSpriteSurfaceArea: 1353635
+    totalSpriteSurfaceArea: 1435555
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1132,10 +1132,90 @@ SpriteAtlas:
   - {fileID: 21300010, guid: c0b6d732e65cd8749874e0596a0e6a88, type: 3}
   - {fileID: 21300016, guid: c0b6d732e65cd8749874e0596a0e6a88, type: 3}
   - {fileID: 21300018, guid: c0b6d732e65cd8749874e0596a0e6a88, type: 3}
+  - {fileID: 21300016, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300018, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300008, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300010, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300012, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300014, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300000, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300002, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300004, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300006, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300034, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300032, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300030, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300028, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300026, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300024, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300022, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300020, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300038, guid: ac0ceac23fce980469baabca93326628, type: 3}
+  - {fileID: 21300036, guid: ac0ceac23fce980469baabca93326628, type: 3}
   - {fileID: 21300000, guid: cd5543d43ab4c9c49ae1348dc0d5c9e6, type: 3}
+  - {fileID: 21300004, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300006, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300000, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300002, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300012, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300014, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300008, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300010, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300016, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300018, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300038, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300036, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300022, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300020, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300026, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300024, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300030, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300028, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300034, guid: afc39be427d2849458ed6745d10467c8, type: 3}
+  - {fileID: 21300032, guid: afc39be427d2849458ed6745d10467c8, type: 3}
   - {fileID: 21300000, guid: 57feaf6768a494f479484a7cf0236b69, type: 3}
   - {fileID: 21300000, guid: ea5a25f9ee344224a903b10cd00bfe8e, type: 3}
+  - {fileID: 21300028, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300030, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300032, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300034, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300020, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300022, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300024, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300026, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300036, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300038, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300018, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300016, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300010, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300008, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300014, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300012, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300002, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300000, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300006, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
+  - {fileID: 21300004, guid: b68db33a1435a47499ef3a76120a26e0, type: 3}
   - {fileID: 21300000, guid: a546d01bdf46c0c49b1bd9cf8aa60857, type: 3}
+  - {fileID: 21300000, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300036, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300038, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300024, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300026, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300020, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300022, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300032, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300034, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300028, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300030, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300018, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300016, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300014, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300012, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300010, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300008, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300006, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300004, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
+  - {fileID: 21300002, guid: 2e47e23b76d0c334ea7d6cbb32aee5cf, type: 3}
   - {fileID: 21300000, guid: 1c3c0c8b7e38d414f95d637a62e89697, type: 3}
   - {fileID: 21300016, guid: 9f476b5f83f7feb468b74feff07c0e1f, type: 3}
   - {fileID: 21300018, guid: 9f476b5f83f7feb468b74feff07c0e1f, type: 3}
@@ -2257,10 +2337,90 @@ SpriteAtlas:
   - SlimeSmash_5
   - SlimeSmash_8
   - SlimeSmash_9
+  - Cow Brown(L)_8
+  - Cow Brown(L)_9
+  - Cow Brown(L)_4
+  - Cow Brown(L)_5
+  - Cow Brown(L)_6
+  - Cow Brown(L)_7
+  - Cow Brown(L)_0
+  - Cow Brown(L)_1
+  - Cow Brown(L)_2
+  - Cow Brown(L)_3
+  - Cow Brown(L)_17
+  - Cow Brown(L)_16
+  - Cow Brown(L)_15
+  - Cow Brown(L)_14
+  - Cow Brown(L)_13
+  - Cow Brown(L)_12
+  - Cow Brown(L)_11
+  - Cow Brown(L)_10
+  - Cow Brown(L)_19
+  - Cow Brown(L)_18
   - Inner
+  - Cow Brown(R)_2
+  - Cow Brown(R)_3
+  - Cow Brown(R)_0
+  - Cow Brown(R)_1
+  - Cow Brown(R)_6
+  - Cow Brown(R)_7
+  - Cow Brown(R)_4
+  - Cow Brown(R)_5
+  - Cow Brown(R)_8
+  - Cow Brown(R)_9
+  - Cow Brown(R)_19
+  - Cow Brown(R)_18
+  - Cow Brown(R)_11
+  - Cow Brown(R)_10
+  - Cow Brown(R)_13
+  - Cow Brown(R)_12
+  - Cow Brown(R)_15
+  - Cow Brown(R)_14
+  - Cow Brown(R)_17
+  - Cow Brown(R)_16
   - character
   - NPC_test
+  - Cow White(L)_14
+  - Cow White(L)_15
+  - Cow White(L)_16
+  - Cow White(L)_17
+  - Cow White(L)_10
+  - Cow White(L)_11
+  - Cow White(L)_12
+  - Cow White(L)_13
+  - Cow White(L)_18
+  - Cow White(L)_19
+  - Cow White(L)_9
+  - Cow White(L)_8
+  - Cow White(L)_5
+  - Cow White(L)_4
+  - Cow White(L)_7
+  - Cow White(L)_6
+  - Cow White(L)_1
+  - Cow White(L)_0
+  - Cow White(L)_3
+  - Cow White(L)_2
   - log
+  - Cow White(R)_0
+  - Cow White(R)_18
+  - Cow White(R)_19
+  - Cow White(R)_12
+  - Cow White(R)_13
+  - Cow White(R)_10
+  - Cow White(R)_11
+  - Cow White(R)_16
+  - Cow White(R)_17
+  - Cow White(R)_14
+  - Cow White(R)_15
+  - Cow White(R)_9
+  - Cow White(R)_8
+  - Cow White(R)_7
+  - Cow White(R)_6
+  - Cow White(R)_5
+  - Cow White(R)_4
+  - Cow White(R)_3
+  - Cow White(R)_2
+  - Cow White(R)_1
   - font
   - objects_8
   - objects_9

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum PlayerState
 {
+    idle,
     walk,
     smash,
     interact
@@ -14,15 +15,18 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed;
     public Rigidbody2D myRigidbody;
-    private Vector2 change;
+    [HideInInspector]
+    public Vector2 change;
     private Animator animator;
-    private bool smashing;
+    public bool smashing;
     public FloatValue currentHealth;
     public Signal playerHealthSignal;
     public VectorValue startingPosition;
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     private bool interact = false;
+    public Signal playerHit;
+    public bool kicked = false;
 
 
     //Use this for initialization
@@ -48,7 +52,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("smashing", false);
             smashing = false;
         }
-        if (change == Vector2.zero) // tirar "| speed > 0"
+
+        if (change == Vector2.zero && !interact)
         {
             animator.SetBool("moving", false);
             change.x = Input.GetAxisRaw("Horizontal");
@@ -57,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
                 change.y = Input.GetAxisRaw("Vertical");
             }
         }
-        else // trocar isso tudo por else  if (change != Vector2.zero)
+        else
         {
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
@@ -75,16 +80,10 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject)
+        if (!coll.gameObject.CompareTag("Enemy"))
         {
             change = Vector2.zero;
-            /*
-            currentHealth.RuntimeValue -= 1; //só pra testar --> colisão dando dano
-            playerHealthSignal.Raise();
-            if (currentHealth.RuntimeValue <= 0)
-            {
-                this.gameObject.SetActive(false);
-            }*/
+            kicked = false;
         }
     }
 
@@ -96,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void RaiseItem()
+        public void RaiseItem()
     {
         if (playerInventory.currentItem != null)
         {
@@ -108,11 +107,30 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                animator.SetBool("receive item", false);
                 interact = false; //currentState = PlayerState.idle
                 receivedItemSprite.sprite = null;
-                playerInventory.currentItem = null;
+                playerInventory.currentItem = null; 
+                animator.SetBool("receive item", false);
             }
+        }
+    }
+
+    public void Knock()
+    {
+        kicked = true;
+        currentHealth.RuntimeValue -= 1;
+        playerHealthSignal.Raise();
+        if (currentHealth.RuntimeValue > 0)
+        {
+            if (myRigidbody != null)
+            {
+                change *= (-1);
+            }
+            playerHit.Raise();
+        }
+        else
+        {
+            this.gameObject.SetActive(false);
         }
     }
 }

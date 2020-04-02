@@ -6,6 +6,7 @@ public class PlayerElevation : MonoBehaviour
 {
     public Vector3 playerChange;
     public GameObject tempcol;
+    public float prevFloor;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +22,12 @@ public class PlayerElevation : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && other.transform.position.z == 0)
+        if (other.CompareTag("Player") && other.transform.position.z == prevFloor)
         {
             other.transform.position += playerChange;
             tempcol.SetActive(false);
         }
-        else if (other.CompareTag("Player") && other.transform.position.z != 0)
+        else if (other.CompareTag("Player") && other.transform.position.z != prevFloor)
         {
             other.transform.position -= playerChange;
             tempcol.SetActive(true);
