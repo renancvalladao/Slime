@@ -112,6 +112,7 @@ MonoBehaviour:
   enemyName: Cow
   turnTime: 2
   face: {x: 0, y: 1}
+  damage: 1
 --- !u!95 &7503508724375878231
 Animator:
   serializedVersion: 3

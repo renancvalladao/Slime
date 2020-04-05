@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public float turnTime;
     public Vector2 face;
+    public int damage;
 
     private void Awake()
     {
@@ -18,7 +19,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage()
     {
-        health -= 1;
+        health -= damage;
         if (health <= 0)
         {
             this.gameObject.SetActive(false);

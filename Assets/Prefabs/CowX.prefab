@@ -100,6 +100,7 @@ MonoBehaviour:
   enemyName: Cow 2
   turnTime: 2
   face: {x: 1, y: 0}
+  damage: 1
 --- !u!61 &3898817729318951543
 BoxCollider2D:
   m_ObjectHideFlags: 0
